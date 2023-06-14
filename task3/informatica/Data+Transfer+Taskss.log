@@ -1,0 +1,171 @@
+Agent Group Id: 025000000000002
+Agent Group Name: Informatica Cloud Hosted Agent
+Agent Id: 00800000000003R
+Task Name: Data Transfer Taskss
+Task Type: DTT
+Task Id: 0123UT49000000000005
+Run Id: 2
+Service Id: 935299
+Started By: pateldhwani386@gmail.com
+Run Context Type: ICS_UI
+06/08/2023 08:22:54 **** Importing Connection: Conn_0123UT0B000000000006 ...
+06/08/2023 08:22:54 **** Importing Connection: Conn_0123UT0B000000000007 ...
+06/08/2023 08:22:54 **** Importing Source Definition: EMPLOYEES ...
+06/08/2023 08:22:54 **** Importing Target Definition: EMPLOYEES ...
+06/08/2023 08:22:54 **** Importing SessionConfig: default_session_config ...
+    <Warning> :  The Error Log DB Connection value should have Relational: as the prefix.
+    <Warning> :  Invalid value  for attribute Error Log DB Connection. Will use the default value 
+    Validating Source Definition  EMPLOYEES...
+    Validating Target Definition  EMPLOYEES...
+06/08/2023 08:22:54 **** Importing Mapping: Mapping0 ...
+Validating transformations of mapping Mapping0...
+Validating mapping variable(s).
+06/08/2023 08:22:54 **** Importing Workflow: wf_mtt_0123UT49000000000005 ...
+    <Warning> :  Invalid value false for attribute Truncate Target Table. Will use the default value NO    [Session< s_mtt_0123UT49000000000005_3b1279b3a27046639855532ba5d5371b >  --> SnowflakeCloudDataWarehouseV2_table Writer< SnowflakeCloudDataWarehouseV2_table Writer > ] 
+    <Warning> :  Invalid value None for attribute Pushdown Optimization Context. Will use the default value None     [Session< s_mtt_0123UT49000000000005_3b1279b3a27046639855532ba5d5371b > ] 
+    <Warning> :  The value entered is not a valid integer.
+    <Warning> :  Invalid value NO for attribute Fail task after wait time. Will use the default value 
+Successfully extracted session instance [s_mtt_0123UT49000000000005_3b1279b3a27046639855532ba5d5371b].  Starting repository sequence id is [1102037321]
+DIRECTOR> VAR_27085 [2023-06-08 08:22:54.449] Parameter file [/data2/home/cldagnt/SystemAgent/apps/Data_Integration_Server/data/0123UT0E0000000000B9/0123UT/parameters/s_mtt_0123UT49000000000005_3b1279b3a27046639855532ba5d5371b.param] is opened for [session [wf_mtt_0123UT49000000000005.s_mtt_0123UT49000000000005_3b1279b3a27046639855532ba5d5371b]].
+DIRECTOR> VAR_27062 [2023-06-08 08:22:54.450] Warning! Cannot find section for worklet [wf_mtt_0123UT49000000000005] and folder [] in parameter file [/data2/home/cldagnt/SystemAgent/apps/Data_Integration_Server/data/0123UT0E0000000000B9/0123UT/parameters/s_mtt_0123UT49000000000005_3b1279b3a27046639855532ba5d5371b.param].
+DIRECTOR> TM_6014 [2023-06-08 08:22:54.450] Initializing session [s_mtt_0123UT49000000000005_3b1279b3a27046639855532ba5d5371b] at [Thu Jun 08 08:22:54 2023].
+DIRECTOR> TM_6683 [2023-06-08 08:22:54.450] Repository Name: [XMLRepository]
+DIRECTOR> TM_6684 [2023-06-08 08:22:54.450] Server Name: [rDTM]
+DIRECTOR> TM_6686 [2023-06-08 08:22:54.450] Folder: []
+DIRECTOR> TM_6685 [2023-06-08 08:22:54.450] Workflow: [wf_mtt_0123UT49000000000005] Run Instance Name: [] Run Id: [0]
+DIRECTOR> TM_6992 [2023-06-08 08:22:54.450] Operating System Type [Linux]
+DIRECTOR> TM_6101 [2023-06-08 08:22:54.450] Mapping name: Mapping0.
+DIRECTOR> TM_6964 [2023-06-08 08:22:54.450] Date format for the Session is [MM/DD/YYYY HH24:MI:SS.US]
+DIRECTOR> TM_6703 [2023-06-08 08:22:54.450] Session [s_mtt_0123UT49000000000005_3b1279b3a27046639855532ba5d5371b] is run by 64-bit Integration Service  [], version [10.2.0 HotFix2], build [0320].
+MANAGER> PETL_24091 [2023-06-08 08:22:54.461] Thread [MANAGER] has the ID [1].
+MANAGER> PETL_24058 [2023-06-08 08:22:54.461] Running Partition Group [1].
+MANAGER> PETL_24000 [2023-06-08 08:22:54.461] Parallel Pipeline Engine initializing.
+MONITOR> PETL_24091 [2023-06-08 08:22:54.461] Thread [MONITOR] has the ID [2].
+MANAGER> PETL_24001 [2023-06-08 08:22:54.462] Parallel Pipeline Engine running.
+MANAGER> PETL_24003 [2023-06-08 08:22:54.462] Initializing session run.
+MAPPING> PETL_24091 [2023-06-08 08:22:54.462] Thread [MAPPING] has the ID [3].
+MAPPING> CMN_1569 [2023-06-08 08:22:54.464] Server Mode: [UNICODE]
+MAPPING> CMN_1570 [2023-06-08 08:22:54.464] Server Code page: [ISO 8859-1 Western European]
+MAPPING> TM_6151 [2023-06-08 08:22:54.464] The session sort order is [Binary].
+MAPPING> TM_6185 [2023-06-08 08:22:54.464] Warning. Code page validation is disabled in this session.
+MAPPING> CMN_65110 [2023-06-08 08:22:54.464] Current Timezone:[UTC -5:0]
+MAPPING> CMN_65111 [2023-06-08 08:22:54.464] Current Process ID:[30053]
+MAPPING> TM_6155 [2023-06-08 08:22:54.464] Using HIGH precision processing.
+MAPPING> TM_6180 [2023-06-08 08:22:54.464] Deadlock retry logic will not be implemented.
+MAPPING> TM_6187 [2023-06-08 08:22:54.464] Session target-based commit interval is [10000].
+MAPPING> PMJVM_42020 [2023-06-08 08:22:54.467] [INFO] Loaded library : /data2/home/cldagnt/SystemAgent/jdk/jre/lib/amd64/server/libjvm.so.
+MAPPING> PMJVM_42009 [2023-06-08 08:22:54.534] [INFO] Created Java VM successfully.
+MAPPING> SDKS_38029 [2023-06-08 08:22:54.593] Loaded plug-in 605501: [plugin description].
+MAPPING> SDKS_38024 [2023-06-08 08:22:55.072] Plug-in 605501 initialization complete.
+MAPPING> SDKS_38017 [2023-06-08 08:22:55.072] Writer SDK plug-in initialization complete.
+MAPPING> CONNECTOR_10000 [2023-06-08 08:22:56.960] [INFO] The source or target object at runtime is overridden with the parameter name EMPLOYEES= table name EMPLOYEES.
+MAPPING> SDKS_38509 [2023-06-08 08:22:57.243] SDK target and group initialization complete.
+MAPPING> TM_6307 [2023-06-08 08:22:57.243] DTM error log disabled. 
+MAPPING> TE_7022 [2023-06-08 08:22:57.243] TShmWriter: Initialized
+MAPPING> TM_6007 [2023-06-08 08:22:57.245] DTM initialized successfully for session [s_mtt_0123UT49000000000005_3b1279b3a27046639855532ba5d5371b]
+DIRECTOR> PETL_24033 [2023-06-08 08:22:57.245] All DTM Connection Info: [<NONE>].
+MANAGER> PETL_24004 [2023-06-08 08:22:57.245] Starting pre-session tasks. : (Thu Jun 08 08:22:57 2023)
+PRE-SESS> PETL_24091 [2023-06-08 08:22:57.245] Thread [PRE-SESS] has the ID [4].
+MANAGER> PETL_24027 [2023-06-08 08:22:57.247] Pre-session task completed successfully. : (Thu Jun 08 08:22:57 2023)
+DIRECTOR> PETL_24006 [2023-06-08 08:22:57.247] Starting data movement.
+MAPPING> TM_6660 [2023-06-08 08:22:57.249] Total Buffer Pool size is 8314384 bytes and Block size is 459688 bytes.
+READER_1_1_1> PETL_24091 [2023-06-08 08:22:57.250] Thread [READER_1_1_1] has the ID [5].
+READER_1_1_1> DBG_21438 [2023-06-08 08:22:57.250] Reader: Source is [odbc://dbtype=Oracle;host=testdb.chg7lglnyg4b.us-east-1.rds.amazonaws.com;port=1521;database=orcl], Type [ODBC], User [admin]
+READER_1_1_1> BLKR_16051 [2023-06-08 08:22:57.254] Source database connection [Conn_0123UT0B000000000006] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+READER_1_1_1> CMN_1021 [2023-06-08 08:22:57.255] Database driver event...
+CMN_1021 [Driver Manager used is [Data Direct].]
+
+READER_1_1_1> CMN_1021 [2023-06-08 08:22:59.970] Database driver event...
+CMN_1021 [Reading driver properties from : /data2/home/cldagnt/SystemAgent/apps/Data_Integration_Server/65.0.1.1/ICS/main/bin/rdtm/../../../../drivers/driver.properties
+DTM flag to determine driver name is not found hence default to [DataDirect CLOSED 8.0 Oracle Wire Protocol for Informatica - R40] driver.
+ODBC Event Using array fetches.
+ODBC Event Using Single Row Inserts. connect string = [Driver=DataDirect CLOSED 8.0 Oracle Wire Protocol for Informatica - R40;Host=testdb.chg7lglnyg4b.us-east-1.rds.amazonaws.com;ServiceName=orcl;Port=1521;UID=admin;AS=6000000;EBL=0;ENS=1;IACP=4;ETWT=1;WorkArounds2=2;AllowedOpenSSLVersions=1.0.2;EnableEmptyLobs=1]. userid = [admin]
+ODBC Version:	03.52.0000
+.
+DBMS Name:	Oracle
+.
+DBMS Version:	19.00.0000 Oracle 19.0.0.0.0
+.
+Driver Name:	DWora28.so
+.
+Driver Version:	08.02.2432 (B0798, U0577)
+.
+Driver ODBC Version:	03.52
+.]
+
+READER_1_1_1> BLKR_16003 [2023-06-08 08:22:59.970] Initialization completed successfully.
+TRANSF_1_1_1> PETL_24091 [2023-06-08 08:22:59.971] Thread [TRANSF_1_1_1] has the ID [6].
+WRITER_1_*_1> PETL_24091 [2023-06-08 08:22:59.971] Thread [WRITER_1_*_1] has the ID [7].
+WRITER_1_*_1> CONNECTOR_10000 [2023-06-08 08:22:59.982] [INFO] Normal Mode (Non-Bulk Processing) is enabled to Write data
+WRITER_1_*_1> SNOWFLAKECLOUDDATAWAREHOUSE_10000 [2023-06-08 08:23:03.055] [INFO] The Snowflake Connector uses the following JDBC URL to connect to Snowflake: jdbc:snowflake://qkwpabt-gk41830.snowflakecomputing.com/?warehouse=warehouse_target&role=ACCOUNTADMIN&SSL=on&application=INFA_DI_Cloud
+WRITER_1_*_1> WRT_8270 [2023-06-08 08:23:04.178] Target connection group #1 consists of target(s) [EMPLOYEES: Partition 1]
+WRITER_1_*_1> WRT_8003 [2023-06-08 08:23:04.178] Writer initialization complete.
+READER_1_1_1> BLKR_16007 [2023-06-08 08:23:04.178] Reader run started.
+WRITER_1_*_1> WRT_8005 [2023-06-08 08:23:04.178] Writer run started.
+WRITER_1_*_1> WRT_8158 [2023-06-08 08:23:04.178] 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Thu Jun 08 08:23:03 2023
+
+Target tables:
+
+     EMPLOYEES: Partition 1
+
+
+READER_1_1_1> RR_4010 [2023-06-08 08:23:04.178] SQ instance [Source] SQL Query [SELECT ADMIN.EMPLOYEES.EMPLOYEE_ID, ADMIN.EMPLOYEES.FIRST_NAME, ADMIN.EMPLOYEES.LAST_NAME, ADMIN.EMPLOYEES.EMAIL, ADMIN.EMPLOYEES.PHONE, ADMIN.EMPLOYEES.HIRE_DATE, ADMIN.EMPLOYEES.MANAGER_ID, ADMIN.EMPLOYEES.JOB_TITLE FROM ADMIN.EMPLOYEES]
+READER_1_1_1> RR_4049 [2023-06-08 08:23:04.178] SQL Query issued to database : (Thu Jun 08 08:23:04 2023)
+READER_1_1_1> RR_4050 [2023-06-08 08:23:04.648] First row returned from database to reader : (Thu Jun 08 08:23:04 2023)
+READER_1_1_1> BLKR_16019 [2023-06-08 08:23:04.648] Read [107] rows, read [0] error rows for source table [EMPLOYEES] instance name [EMPLOYEES]
+TRANSF_1_1_1> DBG_21216 [2023-06-08 08:23:04.648] Finished transformations for Source Qualifier [Source]. Total errors [0] 
+READER_1_1_1> BLKR_16008 [2023-06-08 08:23:04.649] Reader run completed.
+WRITER_1_*_1> WRT_8167 [2023-06-08 08:23:04.649] Start loading table [EMPLOYEES: Partition 1] at: Thu Jun 08 08:23:03 2023
+WRITER_1_*_1> WRT_8168 [2023-06-08 08:23:04.672] End loading table [EMPLOYEES: Partition 1] at: Thu Jun 08 08:23:03 2023
+WRITER_1_*_1> SNOWFLAKECLOUDDATAWAREHOUSE_10000 [2023-06-08 08:23:04.672] [INFO] The Snowflake Connector completed writing data to the target.
+WRITER_1_*_1> WRT_8035 [2023-06-08 08:23:13.204] Load complete time: Thu Jun 08 08:23:12 2023
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: EMPLOYEES: Partition 1 (Instance Name: [EMPLOYEES])
+WRT_8038 Inserted rows - Requested: 107        Applied: 107        Rejected: 0          Affected: 107       
+
+
+WRITER_1_*_1> WRT_8043 [2023-06-08 08:23:13.204] *****END LOAD SESSION*****
+WRITER_1_*_1> WRT_8006 [2023-06-08 08:23:13.204] Writer run completed.
+MANAGER> PETL_24031 [2023-06-08 08:23:13.205] 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [1], CONCURRENT SET [1] *****
+Thread [READER_1_1_1] created for [the read stage] of partition point [Source] has completed.
+	Total Run Time = [0.672988] secs
+	Total Idle Time = [0.000000] secs
+	Busy Percentage = [100.000000]
+Thread [TRANSF_1_1_1] created for [the transformation stage] of partition point [Source] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [WRITER_1_*_1] created for [the write stage] of partition point [EMPLOYEES] has completed.
+	Total Run Time = [8.555819] secs
+	Total Idle Time = [0.000000] secs
+	Busy Percentage = [100.000000]
+
+MANAGER> PETL_24005 [2023-06-08 08:23:13.206] Starting post-session tasks. : (Thu Jun 08 08:23:13 2023)
+POST-SESS> PETL_24091 [2023-06-08 08:23:13.206] Thread [POST-SESS] has the ID [8].
+MANAGER> PETL_24029 [2023-06-08 08:23:13.206] Post-session task completed successfully. : (Thu Jun 08 08:23:13 2023)
+MAPPING> SDKS_38510 [2023-06-08 08:23:13.207] SDK target and group deinitialized with status [0].
+MAPPING> SDKS_38025 [2023-06-08 08:23:13.207] Plug-in 605501 deinitialized and unloaded with status [0].
+MAPPING> SDKS_38019 [2023-06-08 08:23:13.207] Writer SDK plug-ins deinitialized with status [0].
+MAPPING> TM_6018 [2023-06-08 08:23:13.207] The session completed with [0] row transformation errors. 
+MANAGER> PETL_24002 [2023-06-08 08:23:13.992] Parallel Pipeline Engine finished.
+DIRECTOR> PETL_24012 [2023-06-08 08:23:13.993] Session run completed successfully.
+DIRECTOR> TM_6022 [2023-06-08 08:23:13.993] 
+
+SESSION LOAD SUMMARY
+================================================
+
+DIRECTOR> TM_6252 [2023-06-08 08:23:13.993] Source Load Summary.
+DIRECTOR> CMN_1740 [2023-06-08 08:23:13.993] Table: [Source] (Instance Name: [Source] Instance UI Name: [Source])
+	 Output Rows [107], Affected Rows [107], Applied Rows [107], Rejected Rows [0]
+DIRECTOR> TM_6253 [2023-06-08 08:23:13.993] Target Load Summary.
+DIRECTOR> CMN_1740 [2023-06-08 08:23:13.993] Table: [EMPLOYEES] (Instance Name: [EMPLOYEES] Instance UI Name: [Target])
+	 Output Rows [107], Affected Rows [107], Applied Rows [107], Rejected Rows [0]
+DIRECTOR> TM_6023 [2023-06-08 08:23:13.993] 
+===================================================
+
+DIRECTOR> TM_6020 [2023-06-08 08:23:13.993] Session [s_mtt_0123UT49000000000005_3b1279b3a27046639855532ba5d5371b] completed at [Thu Jun 08 08:23:13 2023].
